@@ -1,0 +1,64 @@
+body{
+    background-color: hsl(217, 19%, 24%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    width: 444px;  
+    min-height: 250px;
+    max-height: 300px;
+    color: hsl(193, 38%, 86%);
+    margin: 0 auto;
+    margin-top: 180px;
+    padding: auto;
+    outline: solid 1px hsl(150, 100%, 66%);
+    border-radius: 8px ;
+    text-align: center;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.container div{
+    flex-basis: 100%;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Manrope', sans-serif;
+}
+
+.adviceid{
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 0.2rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+img{
+    margin-top: 25px;
+    width: 100%;
+    top: 5rem;
+}
+
+.adviceslip span{
+    margin-bottom: 30px;
+}
+
+#button{
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    color: black;
+    border-radius: 3px;
+    padding: auto;
+    font-weight: bold;
+    font-size: 14px;
+    position: absolute;
+    bottom: 1rem;
+    left: 10rem;
+    box-shadow: inset 0 -3em 3em hsl(150, 100%, 66%), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em hsl(150, 100%, 66%);
+}
